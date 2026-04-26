@@ -30,4 +30,4 @@ async function startServer() {
   });
 }
 
-startServer().catch(console.error);
+export default app;
