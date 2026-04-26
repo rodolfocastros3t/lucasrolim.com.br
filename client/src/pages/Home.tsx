@@ -1,5 +1,5 @@
-import { useLanguage } from '@/contexts/LanguageContext';
-import { content } from '@/lib/content';
+import { useLanguage } from '../contexts/LanguageContext';
+import { content } from '../lib/content';
 import { useState } from 'react';
 
 /**
