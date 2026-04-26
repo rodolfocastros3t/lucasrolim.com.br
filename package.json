@@ -4,12 +4,12 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "dev": "vite --host",
-    "build": "cd client && pnpm install && pnpm run build && cp -r dist ../public",
-    "start": "node dist/index.js",
-    "check": "tsc --noEmit",
-    "format": "prettier --write ."
-  },
+  "dev": "vite --host",
+  "build": "vite build client --outDir ../public",
+  "start": "node dist/index.js",
+  "check": "tsc --noEmit",
+  "format": "prettier --write ."
+},
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-accordion": "^1.2.12",
