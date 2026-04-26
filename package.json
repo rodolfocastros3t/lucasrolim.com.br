@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite --host",
-    "build": "cd client && npm install && vite build && mv dist ../dist",
+    "build": "cd client && pnpm install && pnpm run build && cp -r dist ../public",
     "start": "node dist/index.js",
     "check": "tsc --noEmit",
     "format": "prettier --write ."
