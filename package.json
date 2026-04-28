@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
   "dev": "vite --host",
-  "build": "vite build client --outDir ../dist",
+  "build": "vite build client --outDir dist",
   "check": "tsc --noEmit",
   "format": "prettier --write ."
 },
